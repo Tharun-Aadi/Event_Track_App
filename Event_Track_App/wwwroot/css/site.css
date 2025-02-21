@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Default button style */
+.clickable-button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+    /* Style when button is clicked */
+    .clickable-button:active {
+        background-color: #28a745; /* Green color */
+    }
+
+    .clickable-button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
